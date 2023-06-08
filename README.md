@@ -7,17 +7,17 @@ Ususlly, when a tester or a Developer wants to test some feature, they will have
 
 My task was to develop a GUI which posses a preset of various pre-defined conditions.
 
-For example if preseet 1 is selected in the GUI, the following will automatically be set in the CANoe and the data will be transmitted to the ECU via XRP & CAN>
+For example if preseet 1 is selected in the GUI, the following will automatically be set in the CANoe and the data will be transmitted to the ECU via XRP & CAN.
   1. Ignition On
   2. Engine Speed 4500 RPM
   3. Brake Switch Off.
 
-REQUIREMENTS:
+#REQUIREMENTS:
 1.	Python (Version>3.6)
 2.	Py-Win32 Library (Version>223)
 3.	CANoe Library 
 
-INSTALLATION INSTRUCTIONS:
+#INSTALLATION INSTRUCTIONS:
 1.	Python:
 Link to Download Python: https://www.python.org/downloads/
 2.	Py-Win32 Library:
@@ -26,10 +26,10 @@ Exe Download link: https://github.com/mhammond/pywin32/releases
 3.	CANoe Library:
 Pip Code to Install CANoe Library: pip install Python-CANoe
 
-Methodology:
+#Methodology:
 	Vector Tools CANoe provide the users with WIN32 COM port to access the software.  Using this COM port we can call CANoe functions from PYTHON scripts.
 
-IMPLEMENTATION:
+#IMPLEMENTATION:
 	CANoe Library Provide various functions that can be used to call specific functions in CANoe such as Read, Write System and Environmental Variables. 
 1.	The Function to read Environmental Variables:
 get_EnvVar (variable_name)
