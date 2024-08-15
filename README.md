@@ -46,7 +46,3 @@ get_SysVar (namespace_name, systemvariable_name)
 get_SigVal (channel_number, message_name, signal_name, bus_type)
 
 A conceptual working demo can be seen here: https://drive.google.com/file/d/11jyu9oQ1Z_KTbQMc5r-SE10qCPjTwyVn/view?usp=sharing
-
-
-Thanks,
-Yaswanthkumar Sirumugai Karunakaran
