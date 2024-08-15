@@ -45,4 +45,4 @@ get_SysVar (namespace_name, systemvariable_name)
 5.	The function to Read Signal Value:
 get_SigVal (channel_number, message_name, signal_name, bus_type)
 
-A conceptual working demo can be seen here: [https://drive.google.com/file/d/11jyu9oQ1Z_KTbQMc5r-SE10qCPjTwyVn/view?usp=sharing](https://drive.google.com/file/d/11jyu9oQ1Z_KTbQMc5r-SE10qCPjTwyVn/view?usp=sharing)
+A conceptual working demo can be seen here: [Google Drive](https://drive.google.com/file/d/11jyu9oQ1Z_KTbQMc5r-SE10qCPjTwyVn/view?usp=sharing)
